@@ -1,0 +1,60 @@
+.index {
+    background-image: url("../img/mapa de hoen.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Press Start 2P', cursive;
+}
+
+h1 {
+    text-align: center;
+}
+
+.index a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* los elementos a que se encuentran dentro de un elemento con clase index */
+
+span {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+img {
+    width: 25%;
+}
+
+
+/* Darkrai.html */
+
+.Darkrai {
+    background-color: lightgrey;
+    font-family: 'Press Start 2P', cursive;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    background-color: gray;
+    border-radius: 5px;
+}
+
+#enlace {
+    text-align: center;
+}
+
+img {
+    width: 15%;
+}
+
+span {
+    background-color: darkgray;
+    padding: 2px;
+    border-radius: 5px;
+}
