@@ -10,6 +10,7 @@
     <style>
         body {
             background-color: aqua;
+            font-family: 'Press Start 2P', cursive;
         }
         
         a {
@@ -19,13 +20,33 @@
             background-color: brown;
             border-radius: 5px;
         }
+        
+        #enlace {
+            text-align: center;
+        }
+        
+        img {
+            width: 15%;
+        }
+        
+        #dragon {
+            background-color: rgb(58, 11, 145);
+            padding: 2px;
+            border-radius: 5px;
+        }
+        
+        #tierra {
+            background-color: maroon;
+            padding: 2px;
+            border-radius: 5px
+        }
     </style>
 </head>
 
-<body style="font-family: 'Press Start 2P', cursive;">
+<body>
     <h1>Garchomp</h1>
-    <img style="width: 15%;" src="../img/garchomp.png" alt="garchomp">
-    <p>Tipo: <span style="background-color: rgb(58, 11, 145); padding: 2px;border-radius: 5px;">dragon</span> <span style="background-color: maroon; padding: 2px;border-radius: 5px;">tierra</span></p>
+    <img src="../img/garchomp.png" alt="garchomp">
+    <p>Tipo: <span id="dragon">dragon</span> <span id="tierra">tierra</span></p>
     <p>Descripción:</p>
     <p>Habita en montañas de origen volcánico. Vuela tan rápido como un avión a reacción en busca de presas.</p>
     <p style="text-align: center;"><a href="../index.html">Volver a inicio</a></p>

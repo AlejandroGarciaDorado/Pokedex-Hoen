@@ -10,6 +10,7 @@
     <style>
         body {
             background-color: skyblue;
+            font-family: 'Press Start 2P', cursive;
         }
         
         a {
@@ -19,13 +20,33 @@
             background-color: gray;
             border-radius: 5px;
         }
+        
+        #enlace {
+            text-align: center;
+        }
+        
+        img {
+            width: 15%;
+        }
+        
+        #agua {
+            background-color: blue;
+            padding: 2px;
+            border-radius: 5px;
+        }
+        
+        #siniestro {
+            background-color: darkgray;
+            padding: 2px;
+            border-radius: 5px;
+        }
     </style>
 </head>
 
-<body style="font-family: 'Press Start 2P', cursive;">
+<body>
     <h1>Greninja-Ash</h1>
-    <img style="width: 15%;" src="../img/greninja-ash.png" alt="greninja-ash">
-    <p>Tipo: <span style="background-color: blue; padding: 2px;border-radius: 5px;">agua</span> <span style="background-color: darkgray; padding: 2px;border-radius: 5px;">siniestro</span></p>
+    <img src="../img/greninja-ash.png" alt="greninja-ash">
+    <p>Tipo: <span id="agua">agua</span> <span id="siniestro">siniestro</span></p>
     <p>Descripción:</p>
     <p>Comprime el agua y crea estrellas ninja con las que ataca al enemigo. Cuando las hace girar a gran velocidad cortan en dos hasta el metal.</p>
     <p style="text-align: center;"><a href="../index.html">Volver a inicio</a></p>
