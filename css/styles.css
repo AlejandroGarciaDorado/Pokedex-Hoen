@@ -18,14 +18,14 @@ h1 {
 
 /* los elementos a que se encuentran dentro de un elemento con clase index */
 
-span {
+.index span {
     color: white;
     background-color: rgba(0, 0, 0, 0.5);
     padding: 15px;
     border-radius: 10px;
 }
 
-img {
+.index img {
     width: 25%;
 }
 
@@ -37,7 +37,7 @@ img {
     font-family: 'Press Start 2P', cursive;
 }
 
-a {
+.Darkrai a {
     text-decoration: none;
     color: white;
     padding: 10px;
@@ -49,12 +49,130 @@ a {
     text-align: center;
 }
 
-img {
+.Darkrai img {
     width: 15%;
 }
 
-span {
+.Darkrai span {
     background-color: darkgray;
     padding: 2px;
     border-radius: 5px;
+}
+
+
+/* Garchomp */
+
+.Garchomp {
+    background-color: aqua;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.Garchomp a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    background-color: brown;
+    border-radius: 5px;
+}
+
+#enlace {
+    text-align: center;
+}
+
+.Garchomp img {
+    width: 15%;
+}
+
+#dragon {
+    background-color: rgb(58, 11, 145);
+    padding: 2px;
+    border-radius: 5px;
+}
+
+#tierra {
+    background-color: maroon;
+    padding: 2px;
+    border-radius: 5px
+}
+
+
+/* Greninja-Ash.html */
+
+.Greninja-Ash {
+    background-color: skyblue;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.Greninja-Ash a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    background-color: gray;
+    border-radius: 5px;
+}
+
+#enlace {
+    text-align: center;
+}
+
+.Greninja-Ash img {
+    width: 15%;
+}
+
+#agua {
+    background-color: blue;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+#siniestro {
+    background-color: darkgray;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+
+/* Tyranitar.html */
+
+.Tyranitar {
+    background-color: saddlebrown;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.Tyranitar a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    background-color: gray;
+    border-radius: 5px;
+}
+
+#enlace {
+    text-align: center;
+}
+
+.Tyranitar img {
+    width: 15%;
+}
+
+#roca {
+    background-color: maroon;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+#siniestro {
+    background-color: darkgray;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+
+/* media query para el diseño responsive */
+
+@media only screen and (max-width: 600px) {
+    .index img,
+    .Darkrai img {
+        width: 100%;
+    }
 }
