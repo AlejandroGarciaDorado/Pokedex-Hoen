@@ -172,7 +172,10 @@ h1 {
 
 @media only screen and (max-width: 600px) {
     .index img,
-    .Darkrai img {
+    .Darkrai img,
+    .Garchomp img,
+    .Greninja-Ash img,
+    .Tyranitar img {
         width: 100%;
     }
 }
